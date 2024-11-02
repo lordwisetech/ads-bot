@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="botContainer">
+        <h1>Ad Bot</h1>
+
+        <div id="accessSection">
+            <input type="password" id="accessKey" placeholder="Enter Access Key" />
+            <button onclick="submitAccessKey()">Submit</button>
+        </div>
+
+        <div id="adInputSection" style="display:none;">
+            <input type="text" id="adLink" placeholder="Enter Ad Direct Link">
+            <button onclick="addAd()">Add Ad</button>
+            <button onclick="displayAds()">Show Ads</button>
+        </div>
+
+        <div id="adsDisplaySection" style="display:none;">
+            <h2>Current Ad:</h2>
+            <div id="currentAd"></div>
+            <div id="countdown">Time remaining: <span id="timer">180</span> seconds</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
