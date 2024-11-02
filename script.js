@@ -51,7 +51,7 @@ function showAd() {
 }
 
 function startCountdown() {
-    let timeLeft = 10; // 3 minutes
+    let timeLeft = 2; // 3 minutes
     document.getElementById('timer').textContent = timeLeft;
 
     clearInterval(countdownInterval); // Clear previous countdown if any
