@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Tabs Example</title>
+</head>
+<body>
+  <button onclick="openMultipleTabs()">Open Tabs</button>
+
+  <script>
+    function openMultipleTabs() {
+      const totalTabs = 900;
+      const batchSize = 5;
+      const url = 'https://www.profitablecpmrate.com/xjwhfrene?key=b90e7ca701cbac772a9bae4c8ab9f01f';
+
+      let openedTabs = 0;
+
+      function openBatch() {
+        if (openedTabs >= totalTabs) return;
+
+        for (let i = 0; i < batchSize && openedTabs < totalTabs; i++) {
+          window.open(url, '_blank');
+          openedTabs++;
+        }
+
+        // Delay the next batch to avoid overwhelming the browser
+        setTimeout(openBatch, 1000); // Adjust delay as needed
+      }
+
+      openBatch();
+    }
+  </script>
+</body>
+</html>
