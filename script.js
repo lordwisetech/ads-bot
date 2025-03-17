@@ -1,7 +1,7 @@
 let accessKey = 'bot'; // Set your access key here
 let ads = [
-    "https://www.profitablecpmrate.com/b8n9m5k1?key=49d1b07c7f86d580f8d82619ffc2c9c7",
-    "https://www.profitablecpmrate.com/b6gkcf2aa8?key=a342eb1837eb747b7a48c4a55ca5dc66"];
+    "https://mysteriousborder.com/bD3ZV.0AP-3NpUvkbMmXVtJ/Z/DR0p2RM_Txg/wuMXjucV3sLuT/YOxhOJDkAvyeNIzZgA",
+    "https://mysteriousborder.com/b/3SV.0LPb3wp/vgbdm/V/JuZBDD0t1GNBzzA/3/MZz/A-4BLsTCUg3KMDDOcRzGMNDkkB"];
 
 
 
